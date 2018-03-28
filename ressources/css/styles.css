@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #53346D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*******HTML LCS NA****/
+
+/************************\
+********Header************
+\************************/
+.header{
+  background-image: url();
+  /*background-color: red;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border-style: outset;
+  border-bottom-color: #780206, #061161);
+  margin-bottom: 20px;
+  border-left: blue;
+}
+
+/**************************
+******Barre de menu********
+**************************/
+
+/* <-- depart pour balise <ul></ul> --> */
+.menu-acceuil{
+  color
+}
+
+nav>ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* mise en disposition du menu déroulant*/
+nav>ul>li{
+  float: left;
+}
+
+nav li{
+  list-style-type: none;
+}
+
+.submenu{
+  display:  none;
+}
+
+nav{
+  width: 100%;
+  background-color: red;
+}
+
+nav>ul>li{
+  float: left;
+  position: relative;
+}
+
+nav>ul::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+nav>ul>li>a{
+  padding: 20px 30px;
+  color: red;
+}
+
+.stycky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 2px #eee;
+
+}
+.stycky
+
+.submenu{
+  display:  none;
+}
+
+nav li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 100000;
+}
+
+.submenu li a{
+  padding: 15px 30px;
+  font-size: 13px
+  color: blue;
+  width: 270px;
+}
+
+.submenu li{
+  border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+  padding: 15px;
+  font-size: 13px;
+  color: black;
+  width: 270px;
+}
+
+.menu-acceuil:hover a{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.menu-boutique:hover li{
+  border-top: 5px solid #0070bb;
+  background-color: RGBa(000, 112, 192, 0.15);
+}
+
+.menu-vente-flash:hover li{
+  border-top: 5px solid #f1dc4f;
+  background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-membres:hover li{
+  border-top: 5px solid #BBB;
+  background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.menu-contact:hover li{
+  border-top: 5px solid #CCC;
+  background-color: RGBa(220, 220, 220, 0.15);
+}
